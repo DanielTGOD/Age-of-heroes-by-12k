@@ -1,9 +1,5 @@
-echo "# Age-of-heroes" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
 git remote add origin https://github.com/DanielTGOD/Age-of-heroes.git
+git branch -M main
 git push -u origin main
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))();
 local Window = Library.CreateLib("Script Tlaloc", colors)
