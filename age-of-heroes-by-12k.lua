@@ -1,6 +1,3 @@
-git remote add origin https://github.com/DanielTGOD/Age-of-heroes-by-12k.git
-git branch -M main
-git push -u origin main
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))();
 local Window = Library.CreateLib("Script Tlaloc", colors)
 local Tab = Window:NewTab("AutoFarm Menu");
